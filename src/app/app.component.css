@@ -1,0 +1,17 @@
+.contenedors{
+    padding: 0% 10%;
+}
+.asd{
+    height:100vh;
+    min-height: 100%;
+    width:100%;
+}
+.fondo{
+    background-image: url(../assets/fondo.png);
+    background-position: center;
+    background-attachment: center;
+    background-size: cover;
+}
+.logos img{
+    max-width: 150px;
+}

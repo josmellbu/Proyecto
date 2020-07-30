@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "proyectoppp-a296f": {
+      "hosting": {
+        "appProyectoPPP": [
+          "proyectoppp-a296f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "proyectoppp-a296f"
+  }
+}

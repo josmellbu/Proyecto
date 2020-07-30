@@ -1,0 +1,126 @@
+<div class="row cabe">
+    <div class="col-12 col-md-12 col-xl-3 mb-2 p-3">
+        <h2 class="text-center mb-3">Practicante</h2>
+        <div class="col-12 d-flex justify-content-center">
+            <img src="../../../assets/profile.jpg" class="rounded prfl">
+        </div>
+        <div class="col-12 py-3 text-center">
+            <h6>Nombres: {{ nombre }}</h6>
+            <h6>Apellidos: {{ apellidos }}</h6>
+            <h6>Código Universitario: {{ codigou }}</h6>
+            <h6>Plan Académico: {{ planA }}</h6>
+            <h6>Periodo: {{ periodo }}</h6>
+            <h6>Empresa: {{ empresa }}</h6>
+            <h6>Area Formativa: {{ areaF }}</h6>
+            <h6>Horas Acumuladas: {{ horasA }}</h6>
+            <h6>Fecha inicio: {{ inicio }}</h6>
+            <h6>Fecha fin: {{ fin }}</h6>
+            <h6>Estado: {{ estado }}</h6>
+        </div>
+    </div>
+    <div class="col-12 col-md-12 col-sm-12 col-xl-9 p-3">
+        <h2 class="text-center mb-3">Estado</h2>
+        <div class="col-12 d-flex justify-content-center">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Documento</th>
+                    <th scope="col">Calificación</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Opciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Solicitar</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="../solicitud">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Carta de presentación</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Carta de aceptación</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Supervición 1</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Supervición 2</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Evaluación de la Emp.</td>
+                    <td><strong>18</strong></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Constancia</td>
+                    <td></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Informe</td>
+                    <td><strong>16</strong></td>
+                    <td>31/12/2020</td>
+                    <td>check</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/versh">Ver</button>
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex justify-content-center col-12 p-2 my-5 collapce botones">
+            <button type="button" class="btn btn-danger btn-lg mx-5 my-2">
+                <h4>Finalizar</h4>
+                <h6>Practicas Pre-Profesionales</h6>
+            </button>
+        </div>
+    </div>
+</div>

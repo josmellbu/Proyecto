@@ -1,0 +1,46 @@
+<div class="row cabe">
+    <div class="col-12 col-md-12 col-xl-3 mb-2 p-3">
+        <h2 class="text-center mb-3">Admin</h2>
+        <div class="col-12 d-flex justify-content-center">
+            <img src="../../../assets/profile.jpg" class="rounded prfl">
+        </div>
+        <div class="col-12 py-3 text-center">
+        <h6>Nombres: {{ nombre }}</h6>
+        <h6>Código del Personal: {{ codigou }}</h6>
+        <h6>Periodo: {{ periodo }}</h6>
+    </div>
+    </div>
+    <div class="col-12 col-md-12 col-sm-12 col-xl-9 p-3">
+        <h2 class="text-center mb-3">Estado</h2>
+        <div class="col-12 d-flex justify-content-center">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Opciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Alex</td>
+                    <td>Apellidos</td>
+                    <td>1</td>
+                    <th>
+                        <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/estado">ver</button>
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex justify-content-center col-12 p-2 my-5 collapce botones">
+            <button type="button" class="btn btn-danger btn-lg mx-5 my-2">
+                <h4>Finalizar</h4>
+                <h6>Practicas Pre-Profesionales</h6>
+            </button>
+        </div>
+    </div>
+</div>
